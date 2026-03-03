@@ -5,13 +5,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>{{ page.title | default: site.title }}</title>
     <meta name="description" content="{{ page.description | default: site.description }}" />
-    <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}" />
+    <link rel="stylesheet" href="assets/css/style.css" />
   </head>
   <body class="bg-base-200">
     <header class="sticky top-0 z-50 border-b border-base-300/70 bg-base-100/90 backdrop-blur">
       <div class="navbar mx-auto w-[92%] max-w-6xl px-0">
         <div class="flex-1">
-          <a class="btn btn-ghost text-lg font-bold" href="{{ '/' | relative_url }}">{{ site.title }}</a>
+          <a class="btn btn-ghost text-lg font-bold" href="./">{{ site.title }}</a>
         </div>
         <div class="flex-none gap-1">
           <a href="#ozellikler" class="btn btn-ghost btn-sm">Özellikler</a>
