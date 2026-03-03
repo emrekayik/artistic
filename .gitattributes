@@ -1,0 +1,6 @@
+# Generated assets: keep current branch version during merge to reduce noisy conflicts
+assets/css/style.css merge=ours linguist-generated=true
+
+# Lockfiles are machine-generated and frequently conflict
+Gemfile.lock merge=ours
+package-lock.json merge=ours
