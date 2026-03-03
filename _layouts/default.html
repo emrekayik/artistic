@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="tr">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>{{ page.title | default: site.title }}</title>
+    <meta name="description" content="{{ page.description | default: site.description }}" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}" />
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="container nav-wrap">
+        <a class="brand" href="{{ '/' | relative_url }}">{{ site.title }}</a>
+        <nav class="main-nav" aria-label="Ana menü">
+          <a href="#ozellikler">Özellikler</a>
+          <a href="#hakkinda">Hakkında</a>
+          <a href="#iletisim">İletişim</a>
+        </nav>
+      </div>
+    </header>
+
+    <main>{{ content }}</main>
+
+    <footer id="iletisim" class="site-footer">
+      <div class="container">
+        <p>{{ site.title }} · Jekyll ile geliştirildi.</p>
+      </div>
+    </footer>
+  </body>
+</html>
