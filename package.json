@@ -1,0 +1,12 @@
+{
+  "name": "artistic-jekyll",
+  "private": true,
+  "version": "1.0.0",
+  "description": "Jekyll + TailwindCSS (ruby) + DaisyUI",
+  "devDependencies": {
+    "daisyui": "5.5.19"
+  },
+  "scripts": {
+    "build": "bundle exec tailwindcss -i ./assets/css/tailwind.css -o ./assets/css/style.css --minify"
+  }
+}

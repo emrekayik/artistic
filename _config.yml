@@ -1,0 +1,8 @@
+title: Artistic
+email: hello@example.com
+description: >-
+  Artistic için modern, hızlı ve okunabilir bir Jekyll arayüzü.
+baseurl: ""
+url: ""
+markdown: kramdown
+theme: null
